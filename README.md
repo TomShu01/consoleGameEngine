@@ -1,5 +1,8 @@
 # consoleGameEngine
 
+Here is a demonstration of consoleGameEngine. I used consoleGameEngine to implement tetris. Code for tetris can be found [here](tetrisUsingEngine.cpp)
+![consoleGameEngine gif](docs/console_game_engine.gif)
+
 ## Project Overview
 This is a simple game engine for C++.
 
@@ -46,8 +49,6 @@ void runGame() {
 		system("pause");
 	}
 ```
-
-I also reimplemented my tetris using this engine as a demonstration of how to use my engine to create a game. This is included in the files of this repository [here](tetrisUsingEngine.cpp)
 
 ## How I built it
 I coded it by following along Javidx9's [console game engine video](https://www.youtube.com/watch?v=8OK8_tHeCIA&list=PLrOv9FMX8xJE8NgepZR1etrsU63fDDGxO&index=1). I adapted his ideas based on my own needs and understanding, so I have deleted a lot of code that I don't need yet and changed the naming convention and some functions and variables
